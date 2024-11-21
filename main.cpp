@@ -5,8 +5,6 @@
 #include "log.h"
 #include "conf.h"
 
-extern const Conf edgeConf;
-
 const Conf edgeConf = init_conf("./bin/conf.ini");
 
 int main() {

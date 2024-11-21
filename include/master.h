@@ -8,6 +8,7 @@
 
 using namespace std;
 
+
 //连接tcp服务端
 void link_master(const string &host, int port, const string &id, const string &username, const string &password);
 
