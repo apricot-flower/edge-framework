@@ -18,12 +18,4 @@ file(GLOB SOURCES "${SRCDIR}/*.cpp")
 
 add_executable(edge_framework
     main.cpp
-        include/log.h
-        src/log.cpp
-        src/conf.cpp
-        include/conf.h
-        include/inifile.h
-        src/inifile.cpp
-        include/master.h
-        src/master.cpp
 )
